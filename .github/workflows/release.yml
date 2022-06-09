@@ -12,10 +12,9 @@ jobs:
     name: Node ${{ matrix.node }}
 
     steps:
-      - name: Initialize
+      - name: Quality check
         uses: ./.github/actions/qualityCheck
 
-      # カスタム
       - name: Release
         run: yarn semantic-release
         env:
