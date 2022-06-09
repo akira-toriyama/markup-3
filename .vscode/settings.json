@@ -1,0 +1,16 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": [
+    "source.fixAll.eslint",
+    "source.fixAll.stylelint"
+  ],
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  // typescript-plugin-css-modules用
+  "typescript.tsdk": "./node_modules/typescript/lib"
+}
