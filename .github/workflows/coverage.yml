@@ -2,7 +2,6 @@ on: [push]
 
 jobs:
   uploadCoverageToCodecov:
-    # 基本部分
     runs-on: ubuntu-latest
     strategy:
       matrix:
