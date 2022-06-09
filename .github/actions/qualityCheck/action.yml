@@ -1,0 +1,15 @@
+runs:
+  using: "Composite"
+
+  steps:
+    - uses: actions/checkout@v2
+    - name: Setup node
+      uses: actions/setup-node@v2
+      with:
+        node-version: ${{ matrix.node }}
+
+    - name: Install
+      run: yarn
+
+    - name: Quality check
+      run: yarn qualityCheck
