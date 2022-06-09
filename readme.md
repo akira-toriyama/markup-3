@@ -1,8 +1,4 @@
-<p align="center">
-  <a href="https://github.com/akira-toriyama/next.js-tpl">
-    <img src="https://github.com/akira-toriyama/next.js-tpl/blob/main/media/logo.png"/>
-  </a>
-</p>
+# HTML&CSS コーディング・プラクティスブック 2 実践シリーズ
 
 <p align="center">
   <a href="https://semantic-release.gitbook.io/semantic-release/">
@@ -11,7 +7,10 @@
   <a href="https://gitmoji.dev">
     <img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square" alt="Gitmoji">
   </a>
-  <a href="https://codecov.io/gh/akira-toriyama/next.js-tpl">
-    <img src="https://codecov.io/gh/akira-toriyama/next.js-tpl/branch/main/graph/badge.svg?token=1Y8LEB2EAH"/>
-  </a>
 </p>
+
+[HTML&CSS コーディング・プラクティスブック 2 実践シリーズ](https://www.amazon.co.jp/gp/product/B083WB1VYC/ref=ppx_yo_dt_b_d_asin_title_o02?ie=UTF8&psc=1)を参考に学習したサイトです。
+
+Next.js + styled-components に置き換えています。
+
+[ここ](https://markup-3.vercel.app)に公開しています。
