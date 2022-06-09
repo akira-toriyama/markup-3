@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Quality check
-        uses: ./.github/actions/qualityCheck
+        uses: ./.github/actions/test
 
       - name: Release
         run: yarn semantic-release
