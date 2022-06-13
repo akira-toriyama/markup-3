@@ -8,22 +8,7 @@ export const Hero = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-
   position: relative;
-  /* ::after {
-    content: url(/arrow.svg);
-    display: block;
-    width: 0.16rem;
-    padding: 0.18rem 0.15rem 0.1rem;
-    border-radius: 50% 50% 0 0;
-    background-color: ${(props) => props.theme.palette.white};
-    line-height: 0;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-  } */
 
   height: 100svh;
   @media (min-width: 900px) {
@@ -34,6 +19,18 @@ export const Hero = styled.div`
       padding: 0.35rem 0.31rem 0.16rem;
     }
   }
+`;
+
+export const ArrowImg = styled.img`
+  width: 32px;
+  padding: 10px;
+  border-radius: 50% 50% 0 0;
+  background-color: ${(props) => props.theme.palette.white};
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
 `;
 
 export const Title = styled.h1`

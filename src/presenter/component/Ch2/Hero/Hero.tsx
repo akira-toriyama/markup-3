@@ -6,6 +6,7 @@ export const Hero: React.FC = () => (
       <S.Title>
         <img src="/catch.svg" alt="Take A Break" />
       </S.Title>
+      <S.ArrowImg src="/arrow.svg" />
     </S.Hero>
   </>
 );

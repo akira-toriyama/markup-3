@@ -6,12 +6,6 @@
     "dev": "next dev",
     "build": "NODE_ENV=test yarn qualityCheck && NODE_ENV=production next build && next export",
     "qualityCheck": "run-s qualityCheck:*",
-    "qualityCheck:type": "tsc --project ./tsconfig.json --noEmit",
-    "qualityCheck:unitTest": "jest --testPathIgnorePatterns .gitignore",
-    "qualityCheck:redundancy": "jscpd .",
-    "qualityCheck:findDeadCode": "ts-prune -e",
-    "qualityCheck:esLint": "eslint --ignore-path .gitignore .",
-    "qualityCheck:fmt": "prettier  --check --ignore-path .gitignore .",
     "prepare": "git config --local core.hooksPath .githooks"
   },
   "dependencies": {
