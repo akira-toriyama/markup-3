@@ -39,19 +39,3 @@ export const Title = styled.h1`
     text-align: center;
   }
 `;
-
-// // css ネストパターン
-
-// export const Items = styled.ul`
-//   display: flex;
-// `;
-// export const Item = styled.li`
-//   list-style: none;
-// `;
-
-// export const Items2 = styled.ul`
-//   display: flex;
-//   > li {
-//     list-style: none;
-//   }
-// `;

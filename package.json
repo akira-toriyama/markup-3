@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "NODE_ENV=test yarn qualityCheck && NODE_ENV=production next build && next export",
     "qualityCheck": "run-s qualityCheck:*",
+    "qualityCheck:fmt": "prettier  --check --ignore-path .gitignore .",
     "prepare": "git config --local core.hooksPath .githooks"
   },
   "dependencies": {
