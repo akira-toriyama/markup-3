@@ -10,7 +10,7 @@ export const Hero = styled.div`
   align-items: center;
   position: relative;
 
-  height: 100svh;
+  height: 100vh;
   @media (min-width: 900px) {
     height: 100vh;
     justify-content: flex-end;
