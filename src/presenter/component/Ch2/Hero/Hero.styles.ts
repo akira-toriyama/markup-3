@@ -1,16 +1,17 @@
 import styled from "styled-components";
 
 export const Hero = styled.div`
-  background-image: url(cafe.jpg);
-  background-position: center;
+  background-image: url(/cafe.jpg);
+  background-position: center center;
   background-size: cover;
+
   border-color: ${(props) => props.theme.palette.darkgray};
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
 
-  height: 100dvh;
+  height: 100vh;
   @media (min-width: 900px) {
     height: 100vh;
     justify-content: flex-end;
