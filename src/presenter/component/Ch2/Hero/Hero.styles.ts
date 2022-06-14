@@ -11,7 +11,7 @@ export const Hero = styled.div`
   align-items: center;
   position: relative;
 
-  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
   @media (min-width: 900px) {
     height: 100vh;
     justify-content: flex-end;
@@ -23,7 +23,8 @@ export const Hero = styled.div`
 `;
 
 export const ArrowImg = styled.img`
-  width: 32px;
+  /* width: 32px; */
+  height: 28px;
   padding: 10px;
   border-radius: 50% 50% 0 0;
   background-color: ${(props) => props.theme.palette.white};
