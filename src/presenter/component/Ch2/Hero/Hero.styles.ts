@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Hero = styled.div`
+export const Hero = styled.div<{ h: number }>`
   background-image: url(/cafe.jpg);
   background-position: center center;
   background-size: cover;
@@ -11,7 +11,7 @@ export const Hero = styled.div`
   align-items: center;
   position: relative;
 
-  height: calc(var(--vh, 1vh) * 100);
+  height: ${(props) => props.h}px;
   @media (min-width: 900px) {
     height: 100vh;
     justify-content: flex-end;
