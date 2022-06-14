@@ -6,9 +6,10 @@ import Head from "next/head";
 import { Theme } from "~/presenter/component/GlobalStyle";
 import { Media } from "~/presenter/context/Media";
 import { App } from "~/presenter/context/App";
+import { CSR } from "~/presenter/component/CSR";
 
 const Page: NextPage<AppProps> = (props) => (
-  <>
+  <CSR>
     <Head>
       {/* レスポンシブ用設定 */}
       <meta name="viewport" content="width=device-width" />
@@ -22,7 +23,7 @@ const Page: NextPage<AppProps> = (props) => (
         </Theme>
       </App>
     </ErrorBoundary>
-  </>
+  </CSR>
 );
 
 // ts-prune-ignore-next

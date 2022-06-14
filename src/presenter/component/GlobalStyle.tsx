@@ -24,12 +24,13 @@ export const theme = {
 } as const;
 
 const GlobalStyle = createGlobalStyle`
-  body {
+  html {
     color: #222222;
-    font-size: ${theme.typography.default.fontSize};
+    /* font-size: ${theme.typography.default.fontSize}; */
+    font-size: 16px;
     font-family: ${theme.typography.default.fontFamily};
-    line-height: ${theme.typography.default.lineHeight};
-  }
+    line-height: ${theme.typography.default.lineHeight};  
+  } 
   body,
   h1,
   h2,
@@ -50,11 +51,11 @@ const GlobalStyle = createGlobalStyle`
   a:hover {
     opacity: 0.8;
   }
-  img {
-    max-width: 100%;
-    height: auto;
-    vertical-align: bottom;
-  }
+  /* img { */
+    /* max-width: 100%; */
+    /* height: auto; */
+    /* vertical-align: bottom; */
+  /* } */
 `;
 
 type ThemeProps = {
