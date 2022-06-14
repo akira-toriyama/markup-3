@@ -51,11 +51,11 @@ const GlobalStyle = createGlobalStyle`
   a:hover {
     opacity: 0.8;
   }
-  /* img { */
-    /* max-width: 100%; */
-    /* height: auto; */
-    /* vertical-align: bottom; */
-  /* } */
+  img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+   }
 `;
 
 type ThemeProps = {
