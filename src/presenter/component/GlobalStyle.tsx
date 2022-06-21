@@ -21,6 +21,9 @@ export const theme = {
       },
     },
   },
+  spacing: {
+    side: "6vw",
+  },
 } as const;
 
 const GlobalStyle = createGlobalStyle`

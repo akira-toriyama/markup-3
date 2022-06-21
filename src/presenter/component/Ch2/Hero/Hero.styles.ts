@@ -23,7 +23,6 @@ export const Hero = styled.div<{ h: number }>`
 `;
 
 export const ArrowImg = styled.img`
-  /* width: 32px; */
   height: 28px;
   padding: 10px;
   border-radius: 50% 50% 0 0;
