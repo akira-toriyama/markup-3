@@ -7978,9 +7978,9 @@ rollup@^2.43.1:
     fsevents "~2.3.2"
 
 rtl-css-js@^1.14.0:
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/rtl-css-js/-/rtl-css-js-1.15.0.tgz#680ed816e570a9ebccba9e1cd0f202c6a8bb2dc0"
-  integrity sha512-99Cu4wNNIhrI10xxUaABHsdDqzalrSRTie4GeCmbGVuehm4oj+fIy8fTzB+16pmKe8Bv9rl+hxIBez6KxExTew==
+  version "1.16.0"
+  resolved "https://registry.yarnpkg.com/rtl-css-js/-/rtl-css-js-1.16.0.tgz#e8d682982441aadb63cabcb2f7385f3fb78ff26e"
+  integrity sha512-Oc7PnzwIEU4M0K1J4h/7qUUaljXhQ0kCObRsZjxs2HjkpKsnoTMvSmvJ4sqgJZd0zBoEfAyTdnK/jMIYvrjySQ==
   dependencies:
     "@babel/runtime" "^7.1.2"
 
